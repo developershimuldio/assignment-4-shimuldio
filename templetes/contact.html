@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body>
+    <h2>Contact Us</h2>
+    <form action="/action_page.php">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <label>Full Name</label><br>
+            <input type="text" placeholder="Your Name" required><br>
+            <label>Mobile</label><br>
+            <input type="number" placeholder="Your Number" required><br>
+            <label>Email</label><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+            <legend>Address Information</legend>
+            <label>Address</label><br>
+            <input type="text" placeholder="Your Address" required><br>
+            <label>City</label><br>
+            <input type="text" placeholder="Your City" required><br>
+            <label>Zip Code</label><br>
+            <input type="number" placeholder="Your Zip Code" required><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+        <fieldset>
+            <legend>Choose Gender</legend>
+            <input type="radio" name="gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Other
+        </fieldset>
+        <fieldset>
+            <legend>Choose Language</legend>
+            <input type="checkbox" name="language">English
+            <input type="checkbox" name="language">Bangla
+            <input type="checkbox" name="language">Hindi
+            <input type="checkbox" name="language">Spanish
+            <input type="checkbox" name="language">Garo
+            <input type="checkbox" name="language">Chinese
+            <input type="checkbox" name="language">Korean
+            <input type="checkbox" name="language">Japan
+
+         </fieldset>
+        <fieldset>
+            <legend>Comment Box</legend>
+            <textarea name="text" id="" cols="35" rows="15" placeholder="Your Comment are Valuable for Us"></textarea><br>
+            <input type="submit" value="Final Submit">
+        </fieldset>
+    </form>
+    
+</body>
+</html>

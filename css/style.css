@@ -1,0 +1,58 @@
+/*External css*/
+body {
+    background-color: lightgray; 
+}
+header {
+    background-color: darkkhaki;
+}
+main{
+    background-color: lightblue;
+}
+footer{
+    background-color: chocolate;
+}
+li a{
+    color: aliceblue;
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    color: red;
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h2{
+    text-align: center;
+    text-decoration: underline;
+    color:darkcyan;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h5{
+    text-align: center;
+    text-decoration: underline;
+    color:darkblue;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+section{
+    text-align: center;
+}
+p{
+    font-size: 22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+li{
+    font-weight: 900;
+    font-size: 22px;
+}
+span{
+    text-transform: uppercase;
+    font-size: 100px;
+    color: cornflowerblue;
+}
+ul{
+    text-align: left;
+}
